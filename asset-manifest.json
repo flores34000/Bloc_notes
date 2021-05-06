@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/flores34000/Bloc_notes/static/css/main.f6d55af4.chunk.css",
+    "main.js": "/flores34000/Bloc_notes/static/js/main.afe1e664.chunk.js",
+    "main.js.map": "/flores34000/Bloc_notes/static/js/main.afe1e664.chunk.js.map",
+    "runtime-main.js": "/flores34000/Bloc_notes/static/js/runtime-main.7b0f7984.js",
+    "runtime-main.js.map": "/flores34000/Bloc_notes/static/js/runtime-main.7b0f7984.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/flores34000/Bloc_notes/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.cb7a57fa.chunk.js": "/flores34000/Bloc_notes/static/js/2.cb7a57fa.chunk.js",
+    "static/js/2.cb7a57fa.chunk.js.map": "/flores34000/Bloc_notes/static/js/2.cb7a57fa.chunk.js.map",
+    "index.html": "/flores34000/Bloc_notes/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/flores34000/Bloc_notes/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.f6d55af4.chunk.css.map": "/flores34000/Bloc_notes/static/css/main.f6d55af4.chunk.css.map",
+    "static/js/2.cb7a57fa.chunk.js.LICENSE.txt": "/flores34000/Bloc_notes/static/js/2.cb7a57fa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7b0f7984.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.cb7a57fa.chunk.js",
+    "static/css/main.f6d55af4.chunk.css",
+    "static/js/main.afe1e664.chunk.js"
+  ]
+}
