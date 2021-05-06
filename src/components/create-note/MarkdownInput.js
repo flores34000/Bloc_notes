@@ -5,6 +5,8 @@ import ViewNote from "../viewAddNote/ViewNote";
 import AddNote from "../viewAddNote/AddNote";
 const { uuid } = require("uuidv4");
 
+
+
 export default function MarkdownInput() {
   const [titleData, setTitleData] = useState();
   const [contentData, setContentData] = useState();
@@ -50,15 +52,22 @@ export default function MarkdownInput() {
     setDataList(newArr);
     setTitleData("");
     setContentData("");
-    console.log(newArr);
+    // console.log(newArr);
   };
 
   const handle = () => {
-    localStorage.setItem("Note", dataList[0].title);
+  
+    dataList.forEach((e) =>{
+      localStorage.setItem("titleNote", (e.title));
+      localStorage.setItem("contentNote", (e.content));
+      console.log(e)
+    })
   };
-
+const itemStoragesTitle = localStorage.getItem("titleNote")
+const itemStorageContent = localStorage.getItem("contentNote")
   console.log({ dataList });
-  //  console.log({localStorage.getItem('Note')})
+   console.log(itemStoragesTitle)
+   console.log(itemStorageContent)
 
   return (
     <div className="container-fluid d-flex">
@@ -66,9 +75,16 @@ export default function MarkdownInput() {
         <AddNote />
 
         <ul className="listNote">
-          {
-            localStorage.getItem("Note")
+         
+         <li>
+         {
+            itemStoragesTitle
           }
+          <br/>
+          {
+            itemStorageContent
+          }
+         </li>
           {dataList.map((item, index) => {
             
             return (
@@ -79,6 +95,7 @@ export default function MarkdownInput() {
               id={item.id}
               functionDelete={deleteNote}
               />
+              
               );
             })}
         </ul>
